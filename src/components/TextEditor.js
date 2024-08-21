@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import { EditorState } from "draft-js";
-import SideBar from "./SideBar";
 
 function TextEditor() {
   const [editorState, setEditorState] = useState(EditorState.createEmpty());
