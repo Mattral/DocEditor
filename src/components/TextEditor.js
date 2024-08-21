@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import { EditorState } from "draft-js";
-
+import SideBar from "./SideBar";
 function TextEditor() {
   const [editorState, setEditorState] = useState(EditorState.createEmpty());
 
@@ -21,7 +21,7 @@ function TextEditor() {
           editorClassName="mt-6 p-10 bg-white shadow-lg max-w-5xl mx-auto mb-12 border !h-screen"
         />
       </div>
-
+      <SideBar />
 
     </div>
   );
