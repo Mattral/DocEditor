@@ -29,10 +29,6 @@ function Doc() {
             <p className="option">View</p>
             <p className="option">Edit</p>
             <p className="option">Insert</p>
-            <p className="option">Format</p>
-            <p className="option">Tools</p>
-            <p className="option">Extensions</p>
-            <p className="option">Help</p>
           </div>
         </div>{" "}
         <div className="flex gap-8 mr-4">
