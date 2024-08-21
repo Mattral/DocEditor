@@ -22,7 +22,7 @@ function TextEditor() {
         />
       </div>
 
-      <SideBar />
+
     </div>
   );
 }
