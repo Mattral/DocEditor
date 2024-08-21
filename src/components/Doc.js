@@ -51,11 +51,6 @@ function Doc() {
           <h1 className="ml-1 -mt-1 text-black text-sm font-normal">SHARE</h1>
         </Button>
         <Modal />
-        <img
-          className="cursor-pointer rounded-full h-10 w-10 ml-6 mr-3"
-          src={profileLogo}
-          alt="profile-logo"
-        />
       </header>
 
       <TextEditor />
